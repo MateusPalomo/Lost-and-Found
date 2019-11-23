@@ -36,5 +36,8 @@ Plugins utilizados neste repositório.
 | firebase core | [![pub package](https://img.shields.io/pub/v/firebase_core.svg)](https://pub.dev/packages/firebase_core) |
 | firebase storage | [![pub package](https://img.shields.io/pub/v/firebase_storage.svg)](https://pub.dev/packages/firebase_storage) |
 | google_sign_in | [![pub package](https://img.shields.io/pub/v/google_sign_in.svg)](https://pub.dev/packages/google_sign_in) |
-| google_sign_in | [![pub package](https://img.shields.io/pub/v/image_picker.svg)](https://pub.dev/packages/image_picker) |
+| image_picker | [![pub package](https://img.shields.io/pub/v/image_picker.svg)](https://pub.dev/packages/image_picker) |
+| path_provider | [![pub package](https://img.shields.io/pub/v/path_provider.svg)](https://pub.dev/packages/path_provider) |
+| shared_preferences | [![pub package](https://img.shields.io/pub/v/shared_preferences.svg)](https://pub.dev/packages/shared_preferences) |
+| sqflite | [![pub package](https://img.shields.io/pub/v/sqflite.svg)](https://pub.dev/packages/sqflite) |
 
