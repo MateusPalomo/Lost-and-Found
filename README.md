@@ -31,28 +31,8 @@ Plugins utilizados neste repositório.
 | Plugin | Pub |
 |--------|-----|
 | cloud firestore | [![pub package](https://img.shields.io/pub/v/cloud_firestore.svg)](https://pub.dev/packages/cloud_firestore) |
-| flushbar |[pub](https://pub.dev/packages/flushbar) |
+| firebase analytics | [![pub package](https://img.shields.io/pub/v/cloud_firestore.svg)](https://pub.dev/packages/firebase_analytics) |
 | http | [![pub package](https://img.shields.io/pub/v/http.svg)](https://pub.dev/packages/http) |
 | dynamic theme |[pub](https://pub.dev/packages/dynamic_theme#-readme-tab-) |
 | font awesome flutter |[pub](https://pub.dev/packages/font_awesome_flutter) |
 
-## API
-
-### ViaCEP
-https://viacep.com.br/
-
-Exemplo de uso: https://viacep.com.br/ws/13087440/json/
-```
-{
-  "cep": "13087-440",
-  "logradouro": "Rua das Hortências",
-  "complemento": "",
-  "bairro": "Chácara Primavera",
-  "localidade": "Campinas",
-  "uf": "SP",
-  "unidade": "",
-  "ibge": "3509502",
-  "gia": "2446"
-}
-
-```
