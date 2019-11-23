@@ -1,41 +1,59 @@
-# Achados e Perdidos
+# Consulta de CEP
 
-Aplicativo online de achados e perdidos usando Firebase
+Aplicativo para consultar CEP através da API do VIA CEP, criado para disciplina de Programação Mobile com Flutter.
 
-Tutorial de criação deste app:
-
-## Como clonar e importar
-
--   Faça um fork do projeto
--   Abra o terminal do Visual Studio Code
--   Digite (troque kleberandrade pelo nome do seu usuários): git clone https://github.com/kleberandrade/lost-and-found-aulas-flutter lost-and-found
-
-## Desafios
-
--   Melhorar o visual da tela de "SignIn" e "SignUp"
--   Criar as tela de "Informações do Projeto/Autor" e "Termos de Uso"
--   Criar uma Splash Screen (ver como criar [splash screen aqui](https://medium.com/flutter-comunidade-br/criando-uma-splashscreen-utilizando-flutter-926f9b25de31))
--   Criar um ícone para o aplicativo (utilizar [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) e o [gerador de icones](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html))
--   Criar uma nova forma de Login (Facebook, Google, Github, etc...)
-
-## Licença
-
-    Copyright 2019 Kleber de Oliveira Andrade
+<p align="center">
+    <img src="https://github.com/MateusPalomo/Consultar-CEP/blob/master/images/screen1.PNG" height="400"/>
+    <img src="https://github.com/MateusPalomo/Consultar-CEP/blob/master/images/screen2.PNG" height="400"/>
+    <img src="https://github.com/MateusPalomo/Consultar-CEP/blob/master/images/screen3.PNG" height="400"/>
+    <img src="https://github.com/MateusPalomo/Consultar-CEP/blob/master/images/screen4.PNG" height="400"/>
+    <img src="https://media.giphy.com/media/Z9KdG7wGi40oupWKGc/giphy.gif" height="400" />
     
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
     
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-    
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+</p>
+
+## Alguns desafios resolvidos do projeto:
+
+:heavy_check_mark: Criar e usar temas Light e Dark;
+
+:heavy_check_mark: Criar um IconButton na AppBar para alternar entre os temas;
+
+:heavy_check_mark: Criar um formulário para adicionar todos os campos do JSON;
+
+:heavy_check_mark: Validar o campo de digitação de CEP;
+
+:heavy_check_mark: Tratar todas exceções e utilizar um Flushbar para exibir os erros para o usuário;
+
+:heavy_check_mark: Adicionar um IconButton na AppBar para compartilhar o CEP.
+
+## Plugins
+Plugins utilizados neste repositório.
+
+| Plugin | Pub |
+|--------|-----|
+| share | [![pub package](https://img.shields.io/pub/v/share.svg)](https://pub.dev/packages/share) |
+| flushbar |[pub](https://pub.dev/packages/flushbar) |
+| http | [![pub package](https://img.shields.io/pub/v/http.svg)](https://pub.dev/packages/http) |
+| dynamic theme |[pub](https://pub.dev/packages/dynamic_theme#-readme-tab-) |
+| font awesome flutter |[pub](https://pub.dev/packages/font_awesome_flutter) |
+
+## API
+
+### ViaCEP
+https://viacep.com.br/
+
+Exemplo de uso: https://viacep.com.br/ws/13087440/json/
+```
+{
+  "cep": "13087-440",
+  "logradouro": "Rua das Hortências",
+  "complemento": "",
+  "bairro": "Chácara Primavera",
+  "localidade": "Campinas",
+  "uf": "SP",
+  "unidade": "",
+  "ibge": "3509502",
+  "gia": "2446"
+}
+
+```
