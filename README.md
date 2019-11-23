@@ -31,8 +31,8 @@ Plugins utilizados neste repositório.
 | Plugin | Pub |
 |--------|-----|
 | cloud firestore | [![pub package](https://img.shields.io/pub/v/cloud_firestore.svg)](https://pub.dev/packages/cloud_firestore) |
-| firebase analytics | [![pub package](https://img.shields.io/pub/v/cloud_firestore.svg)](https://pub.dev/packages/firebase_analytics) |
-| http | [![pub package](https://img.shields.io/pub/v/http.svg)](https://pub.dev/packages/http) |
-| dynamic theme |[pub](https://pub.dev/packages/dynamic_theme#-readme-tab-) |
+| firebase analytics | [![pub package](https://img.shields.io/pub/v/firebase_analytics.svg)](https://pub.dev/packages/firebase_analytics) |
+| firebase auth | [![pub package](https://img.shields.io/pub/v/firebase_auth.svg)](https://pub.dev/packages/firebase_auth) |
+| firebase core | [![pub package](https://img.shields.io/pub/v/firebase_core.svg)](https://pub.dev/packages/firebase_core) |
 | font awesome flutter |[pub](https://pub.dev/packages/font_awesome_flutter) |
 
