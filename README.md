@@ -1,6 +1,6 @@
-# Consulta de CEP
+# Achados e Perdidos
 
-Aplicativo para consultar CEP através da API do VIA CEP, criado para disciplina de Programação Mobile com Flutter.
+Aplicativo para cadastro de objetos achados ou perdidos utilizando Firebase, criado para disciplina de Programação Mobile com Flutter.
 
 <p align="center">
     <img src="https://github.com/MateusPalomo/Lost-and-Found/blob/master/assets/screen2.PNG" height="400"/>
