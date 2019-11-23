@@ -14,24 +14,23 @@ Aplicativo para cadastro de objetos achados ou perdidos utilizando Firebase, cri
 
 ## Alguns desafios resolvidos do projeto:
 
-:heavy_check_mark: Criar e usar temas Light e Dark;
+:heavy_check_mark: Melhorar o visual da tela de "SignIn" e "SignUp";
 
-:heavy_check_mark: Criar um IconButton na AppBar para alternar entre os temas;
+:heavy_check_mark: Criar as tela de "Informações do Projeto/Autor" e "Termos de Uso";
 
-:heavy_check_mark: Criar um formulário para adicionar todos os campos do JSON;
+:heavy_check_mark: Criar uma Splash Screen;
 
-:heavy_check_mark: Validar o campo de digitação de CEP;
+:heavy_check_mark: Criar um ícone para o aplicativo;
 
-:heavy_check_mark: Tratar todas exceções e utilizar um Flushbar para exibir os erros para o usuário;
+:heavy_check_mark: Criar uma nova forma de Login (Facebook, Google, Github, etc...).
 
-:heavy_check_mark: Adicionar um IconButton na AppBar para compartilhar o CEP.
 
 ## Plugins
 Plugins utilizados neste repositório.
 
 | Plugin | Pub |
 |--------|-----|
-| share | [![pub package](https://img.shields.io/pub/v/share.svg)](https://pub.dev/packages/share) |
+| cloud firestore | [![pub package](https://img.shields.io/pub/v/cloud_firestore.svg)](https://pub.dev/packages/cloud_firestore) |
 | flushbar |[pub](https://pub.dev/packages/flushbar) |
 | http | [![pub package](https://img.shields.io/pub/v/http.svg)](https://pub.dev/packages/http) |
 | dynamic theme |[pub](https://pub.dev/packages/dynamic_theme#-readme-tab-) |
