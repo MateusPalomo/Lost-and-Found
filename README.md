@@ -3,10 +3,10 @@
 Aplicativo para consultar CEP através da API do VIA CEP, criado para disciplina de Programação Mobile com Flutter.
 
 <p align="center">
+    <img src="https://github.com/MateusPalomo/Lost-and-Found/blob/master/assets/screen2.PNG" height="400"/>
     <img src="https://github.com/MateusPalomo/Lost-and-Found/blob/master/assets/screen1.PNG" height="400"/>
-    <img src="https://github.com/MateusPalomo/Consultar-CEP/blob/master/images/screen2.PNG" height="400"/>
-    <img src="https://github.com/MateusPalomo/Consultar-CEP/blob/master/images/screen3.PNG" height="400"/>
-    <img src="https://github.com/MateusPalomo/Consultar-CEP/blob/master/images/screen4.PNG" height="400"/>
+    <img src="https://github.com/MateusPalomo/Lost-and-Found/blob/master/assets/screen3.PNG" height="400"/>
+    <img src="https://github.com/MateusPalomo/Lost-and-Found/blob/master/assets/screen4.PNG" height="400"/>
     <img src="https://media.giphy.com/media/Z9KdG7wGi40oupWKGc/giphy.gif" height="400" />
     
     
